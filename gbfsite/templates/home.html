@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h4>News</h4>
+
+<div class="content">
+    
+    <div class="news-wrapper">
+        <div class="news">
+
+        </div>
+        <div class="news">
+    
+        </div>
+    </div>
+    <div class="forum">
+
+    </div>
+</div>
+<style>
+    .content {
+        border-style: double;
+        padding: 1vmax;
+        display: grid;
+        justify-content: center;
+    }
+    .news {
+        border-style: dashed;
+        margin: 3vmax;
+        height: 30vh;
+        width: 30vw;
+    }
+    .news-wrapper {
+        display:inline-flex;
+        justify-self: center;
+
+    }
+    .forum {
+        border-style: solid;
+        display: inline-flex;
+        justify-self: center;
+        margin: 2vmax;
+        height: 30vh;
+        width: 66vw;
+    }
+    .container {
+        margin: 0;
+    }
+</style>
+{% endblock %}
